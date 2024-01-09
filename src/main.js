@@ -17,7 +17,7 @@ import { aliases, mdi } from "vuetify/iconsets/mdi";
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "./components/pages/Home.vue";
 import CreateRecipe from "./components/pages/CreateRecipe.vue";
-import Detail from "./components/pages/Detail.vue";
+// import Detail from "./components/pages/Detail.vue";
 
 
 const vuetify = createVuetify({
@@ -38,7 +38,7 @@ const vuetify = createVuetify({
 const routes = [
   { path: "/", component: Home },
   { path: "/create-recipe", component: CreateRecipe },
-  { path: "/detail/:id", component: Detail },
+  // { path: "/detail/:id", component: Detail },
 ];
 
 const router = createRouter({
